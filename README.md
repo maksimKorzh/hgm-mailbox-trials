@@ -13,7 +13,8 @@ The speed will be measured in a search of the KiwiPete position.<br>
 r3k2r/p1ppqpb1/bn2pnp1/3PN3/1p2P3/2N2Q1p/PPPBBPPP/R3K2R w KQkq - 0 1<br>
 <br>
 The first design to be tested will be the 16x12 mailbox + piece list.<br>
-We should already have a rough idea how this works, because <a href="https://home.hccnet.nl/h.g.muller/perft.c">Qperft* (*super fast perft by H.G. Muller - note by CMK)</a> uses this design.<br>
+We should already have a rough idea how this works, because<br>
+<a href="https://home.hccnet.nl/h.g.muller/perft.c">Qperft* (*super fast perft by H.G. Muller - note by CMK)</a> uses this design.<br>
 It does a perft(6) of KiwiPete in 45 sec, with bulk counting.<br>
 That means it has done move generation in perft(5) nodes (193M nodes), which translates to 4.26 Mnps.<br>
 But because that is perft there are two effects that slow it down compared to a search:<br>
