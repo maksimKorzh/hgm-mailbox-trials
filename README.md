@@ -1,5 +1,5 @@
 # Mailbox trials by H.G. Muller
-"I opened this thread to conduct a sort of blog on comparing the speed of<br>
+I opened this thread to conduct a sort of blog on comparing the speed of<br>
 several experimental mailbox algorithms. The speed comparison of the various<br>
 techniques will be done for a toy 'model engine', which uses a fixed-depth search<br>
 plus capture-only quiescence (including delta pruning), with MVV/LVA sorting of the captures,<br>
