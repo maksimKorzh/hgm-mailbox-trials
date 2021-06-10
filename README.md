@@ -27,3 +27,6 @@ So the search should be significantly faster, perhaps even double.<br>
 <br>
 We will see shortly...<br>
 <a href="http://talkchess.com/forum3/viewtopic.php?f=7&t=76773">read more...</a>
+
+# How to compile it with GCC
+    gcc -Ofast mailbox7.c -o mailbox7
